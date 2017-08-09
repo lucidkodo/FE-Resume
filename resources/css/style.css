@@ -21,6 +21,7 @@ body {
 p {
 	font-weight: 400;
 	font-size: 110%;
+	line-height: 135%;
 }
 
 .clearfix {zoom: 1}
@@ -43,7 +44,7 @@ p {
 }
 
 section {
-	padding: 15px 0;
+	padding: 20px 0;
 }
 
 .box {
@@ -94,8 +95,8 @@ a:visited {
 
 a:hover,
 a:active {
-	color: #00c4cc;
-	 border-bottom: 1px solid #00c4cc; 
+	color: #20cbd2;
+	 border-bottom: 1px solid #20cbd2; 
 	cursor: pointer;
  	transition: color 0.2s,  border-bottom 0.6s ;
 	/* a tags that has no href attribute, cursor will not become pointer */
@@ -213,6 +214,7 @@ li:last-of-type {}
 	/*
 #fe4d53 Bright Coral
 #ff5451	Watermelon
-#00c4cc Aqua
+#20cbd2 Aqua
+#003e53 My dark blue
 
 	*/

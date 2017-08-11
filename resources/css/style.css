@@ -1,0 +1,249 @@
+/* ----------------------------------------------- */
+/*   BASIC SETUP   */
+/* ----------------------------------------------- */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, 
+body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.99)), url(../img/amanda-sandlin-10508.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
+	font-family: 'Raleway','Lato', 'Roboto', 'Arial', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+}
+
+p {
+	color: #f2eee2;
+	font-weight: 400;
+	font-size: 100%;
+	line-height: 135%;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+	content: '.';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+
+
+/* ----------------------------------------------- */
+/*   REUSABLE COMPONENTS   */
+/* ----------------------------------------------- */
+.row {
+	max-width: 1100px;
+	margin: 0 auto; 
+}
+
+.row-70 { 
+	width: 70%; 
+	margin-left: 15%;
+}
+
+.row-60{
+	width: 60%;
+	margin-left: 20%;
+}
+
+section {
+	padding: 40px 0 40px 0;
+}
+
+.box {
+	padding: 1%;
+}
+
+
+
+/* ----------------------------------------------- */
+/*   HEADINGS   */
+/* ----------------------------------------------- */
+h1 {
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-top: 135px;
+	margin-bottom: 20px;
+	/*color: #003e53;*/
+	color: #00bfa0;
+	font-size: 250%;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+}
+
+h2 {
+	color: #20cbd2;
+	font-weight: 400;
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 150%;
+}
+
+h3 {
+	color: #20cbd2;
+	font-weight: 300;
+}
+
+
+
+/* ----------------------------------------------- */
+/*   LINKS   */
+/* ----------------------------------------------- */
+a:link, 
+a:visited {
+ 	color: #20cbd2;
+ 	text-decoration: none;
+ 	padding-bottom: 2px;
+ 	font-weight: 500;
+ }
+
+a:hover,
+a:active {
+	color: #ff5451;
+	cursor: pointer;
+ 	transition: color 0.2s;
+	/* a tags that has no href attribute, cursor will not become pointer */
+}
+
+
+
+/* ----------------------------------------------- */
+/*   ICONS   */
+/* ----------------------------------------------- */
+.icon-small {
+	font-size: 20px;
+	color: #ff5451;
+	vertical-align: middle;
+	margin-top: -15px;
+}
+
+
+
+/* ----------------------------------------------- */
+/*   HEADER   */
+/* ----------------------------------------------- */
+header {
+	padding: 50px 0 20px 0;
+}
+
+.my-photo {
+	height: 200px;
+	width: auto;
+	border-radius: 50%;
+	float: right;
+	margin-right: 20px;
+}
+
+
+
+/* ----------------------------------------------- */
+/*   NAV BAR   */
+/* ----------------------------------------------- */
+nav {
+	list-style: none;
+	width: 80%; /* 80% of 1150 = 920 */
+	margin-left: 10%;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	list-style: none;
+	/*border-bottom: 2px solid #003e53;*/
+	border-bottom: 2px solid #20cbd2;
+}
+
+nav li {
+	font-weight: 400;
+	display: inline-block;
+	padding: 10px 30px;
+}
+
+nav li:first-child {
+	margin-left: 40.56px;
+}
+
+
+
+/* ----------------------------------------------- */
+/*   SECTION-INFO   */
+/* ----------------------------------------------- */
+.section-info {
+	font-size: 90%;
+	line-height: 145%;
+	margin-bottom: 0;
+}
+
+.label-col {
+	display: block;
+  float: left;
+  padding-left: 40px;
+  margin: 1% 0 1% 1.6%
+}
+
+.label-col:first-child { margin-left: 0; }
+
+
+/* ------ QUERY ------ */ 
+.info-col {
+	/*border: 1px solid #fff;*/
+}
+
+.lang-col {
+	margin-left: 0;
+	/*border: 1px solid #000;*/
+}
+
+
+
+/* ----------------------------------------------- */
+/*   SECTION-CODE EXPERIENCE   */
+/* ----------------------------------------------- */
+.section-exp-goal {
+	width: 80%;
+	margin: 0 10%;
+}
+
+
+/* ----------------------------------------------- */
+/*   CAREER GOALS   */
+/* ----------------------------------------------- */
+.goals-list li {
+	list-style: none;
+	line-height: 150%;
+	color: #fff;
+}
+
+
+
+/* ----------------------------------------------- */
+/*   HIRE ME   */
+/* ----------------------------------------------- */
+
+
+
+
+
+
+/*
+li:first-of-type {}
+li:last-of-type {}
+*/
+
+	/*
+#003e53 My dark blue
+#ff5451	Watermelon
+#20cbd2 Aqua
+
+#9bcd54 green
+
+#fe4d53 Bright Coral
+	*/

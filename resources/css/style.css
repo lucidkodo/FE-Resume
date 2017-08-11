@@ -9,8 +9,11 @@
 
 html, 
 body {
-	background-color: #f7f7f7;
-	/*color: #555;*/
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.99)), url(../img/amanda-sandlin-10508.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
 	font-family: 'Raleway','Lato', 'Roboto', 'Arial', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
@@ -19,8 +22,9 @@ body {
 }
 
 p {
+	color: #f2eee2;
 	font-weight: 400;
-	font-size: 110%;
+	font-size: 100%;
 	line-height: 135%;
 }
 
@@ -39,22 +43,28 @@ p {
 /*   REUSABLE COMPONENTS   */
 /* ----------------------------------------------- */
 .row {
-	max-width: 1150px;
+	max-width: 1100px;
 	margin: 0 auto; 
 }
 
+.row-70 { 
+	width: 70%; 
+	margin-left: 15%;
+}
+
+.row-60{
+	width: 60%;
+	margin-left: 20%;
+}
+
 section {
-	padding: 20px 0;
+	padding: 40px 0 40px 0;
 }
 
 .box {
 	padding: 1%;
 }
 
-.small-row {
-	width: 100%;
-	margin: 0 auto;
-}
 
 
 /* ----------------------------------------------- */
@@ -65,13 +75,15 @@ h1 {
 	text-transform: uppercase;
 	margin-top: 135px;
 	margin-bottom: 20px;
-	color: #003e53;
+	/*color: #003e53;*/
+	color: #00bfa0;
 	font-size: 250%;
 	word-spacing: 4px;
 	letter-spacing: 1px;
 }
 
 h2 {
+	color: #20cbd2;
 	font-weight: 400;
 	text-align: center;
 	padding-bottom: 30px;
@@ -79,15 +91,18 @@ h2 {
 }
 
 h3 {
+	color: #20cbd2;
 	font-weight: 300;
 }
+
+
 
 /* ----------------------------------------------- */
 /*   LINKS   */
 /* ----------------------------------------------- */
 a:link, 
 a:visited {
- 	color: #003e53;
+ 	color: #20cbd2;
  	text-decoration: none;
  	padding-bottom: 2px;
  	font-weight: 500;
@@ -95,10 +110,9 @@ a:visited {
 
 a:hover,
 a:active {
-	color: #20cbd2;
-	 border-bottom: 1px solid #20cbd2; 
+	color: #ff5451;
 	cursor: pointer;
- 	transition: color 0.2s,  border-bottom 0.6s ;
+ 	transition: color 0.2s;
 	/* a tags that has no href attribute, cursor will not become pointer */
 }
 
@@ -108,8 +122,10 @@ a:active {
 /*   ICONS   */
 /* ----------------------------------------------- */
 .icon-small {
-	/*font-size: 25px;*/
+	font-size: 20px;
 	color: #ff5451;
+	vertical-align: middle;
+	margin-top: -15px;
 }
 
 
@@ -141,7 +157,8 @@ nav {
 	padding-bottom: 10px;
 	margin-top: 20px;
 	list-style: none;
-	border-bottom: 2px solid #003e53;
+	/*border-bottom: 2px solid #003e53;*/
+	border-bottom: 2px solid #20cbd2;
 }
 
 nav li {
@@ -162,17 +179,7 @@ nav li:first-child {
 .section-info {
 	font-size: 90%;
 	line-height: 145%;
-	padding-top: 20px;
 	margin-bottom: 0;
-}
-
-.row-80 { 
-	width: 80%; 
-	margin-left: 10%;
-}
-
-.info-col {
-	/*border: 1px solid #000;*/
 }
 
 .label-col {
@@ -184,6 +191,12 @@ nav li:first-child {
 
 .label-col:first-child { margin-left: 0; }
 
+
+/* ------ QUERY ------ */ 
+.info-col {
+	/*border: 1px solid #fff;*/
+}
+
 .lang-col {
 	margin-left: 0;
 	/*border: 1px solid #000;*/
@@ -194,13 +207,27 @@ nav li:first-child {
 /* ----------------------------------------------- */
 /*   SECTION-CODE EXPERIENCE   */
 /* ----------------------------------------------- */
-.section-code-ex {
-	margin-top: 0;
+.section-exp-goal {
+	width: 80%;
+	margin: 0 10%;
 }
 
-.code-ex-col {
-	padding-left: 40px;
+
+/* ----------------------------------------------- */
+/*   CAREER GOALS   */
+/* ----------------------------------------------- */
+.goals-list li {
+	list-style: none;
+	line-height: 150%;
+	color: #fff;
 }
+
+
+
+/* ----------------------------------------------- */
+/*   HIRE ME   */
+/* ----------------------------------------------- */
+
 
 
 
@@ -212,9 +239,11 @@ li:last-of-type {}
 */
 
 	/*
-#fe4d53 Bright Coral
+#003e53 My dark blue
 #ff5451	Watermelon
 #20cbd2 Aqua
-#003e53 My dark blue
 
+#9bcd54 green
+
+#fe4d53 Bright Coral
 	*/

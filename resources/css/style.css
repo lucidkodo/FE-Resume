@@ -9,23 +9,12 @@
 
 html, 
 body {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.99)), url(../img/amanda-sandlin-10508.jpg);
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	height: 100vh;
-	font-family: 'Raleway','Lato', 'Roboto', 'Arial', sans-serif;
+	font-family: 'Fira Sans','Lato', 'Roboto', 'Arial', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
 	text-rendering: optimizeLegibility;
 	overflow-x: hidden;
-}
-
-p {
-	color: #f2eee2;
-	font-weight: 400;
-	font-size: 100%;
-	line-height: 135%;
+	background-color: #d7d7d7;
 }
 
 .clearfix {zoom: 1}
@@ -43,18 +32,7 @@ p {
 /*   REUSABLE COMPONENTS   */
 /* ----------------------------------------------- */
 .row {
-	max-width: 1100px;
 	margin: 0 auto; 
-}
-
-.row-70 { 
-	width: 70%; 
-	margin-left: 15%;
-}
-
-.row-60{
-	width: 60%;
-	margin-left: 20%;
 }
 
 section {
@@ -68,31 +46,47 @@ section {
 
 
 /* ----------------------------------------------- */
-/*   HEADINGS   */
+/*   FONTS  */
 /* ----------------------------------------------- */
+h1, 
+h2,
+h3 {
+	font-family: 'Lato';
+}
+
 h1 {
-	font-weight: 400;
-	text-transform: uppercase;
-	margin-top: 135px;
-	margin-bottom: 20px;
-	/*color: #003e53;*/
-	color: #00bfa0;
+	font-weight: 300;
+	margin-top: 100px;
+	color: #fff;
 	font-size: 250%;
 	word-spacing: 4px;
 	letter-spacing: 1px;
 }
 
 h2 {
-	color: #20cbd2;
+	color: #014d6f;
 	font-weight: 400;
 	text-align: center;
 	padding-bottom: 30px;
-	font-size: 150%;
+	font-size: 180%;
 }
 
 h3 {
-	color: #20cbd2;
+	font-size: 100%;
+	font-weight: 400;
+}
+
+p {
+	font-family: 'Fira Sans';
+	color: #000;
 	font-weight: 300;
+	font-size: 90%;
+	line-height: 135%;
+}
+
+.smaller-p {
+	font-size: 80%;
+	color: #fff;
 }
 
 
@@ -100,12 +94,16 @@ h3 {
 /* ----------------------------------------------- */
 /*   LINKS   */
 /* ----------------------------------------------- */
+a {
+ 	font-family: 'Montserrat';
+ 	font-weight: 300;
+}
+
 a:link, 
 a:visited {
- 	color: #20cbd2;
+ 	color: #379bcc;
  	text-decoration: none;
  	padding-bottom: 2px;
- 	font-weight: 500;
  }
 
 a:hover,
@@ -113,7 +111,6 @@ a:active {
 	color: #ff5451;
 	cursor: pointer;
  	transition: color 0.2s;
-	/* a tags that has no href attribute, cursor will not become pointer */
 }
 
 
@@ -126,6 +123,51 @@ a:active {
 	color: #ff5451;
 	vertical-align: middle;
 	margin-top: -15px;
+	letter-spacing: -2px;
+}
+
+
+
+/* ----------------------------------------------- */
+/*   LEFT SIDEBAR + SITE CONTENT  */
+/* ----------------------------------------------- */
+.left-panel {
+	height: 100vh;
+	width: 22%;
+	margin-top: 0;
+	background-color: #001b30;
+	position: fixed;
+	/*display: none;*/
+}
+
+.site-content {
+	width: 78.1%;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+
+
+/* ----------------------------------------------- */
+/*   NAV BAR   */
+/* ----------------------------------------------- */
+.my-photo {
+	width: 68%;
+	height: auto;
+	margin-left: 16%;
+	margin-top: 25%;
+}
+
+nav {
+	text-align: right;
+	padding-right: 30px;
+}
+
+nav li {
+	list-style: none;
+	line-height: 150%;
+	padding: 20px 0;
 }
 
 
@@ -134,99 +176,151 @@ a:active {
 /*   HEADER   */
 /* ----------------------------------------------- */
 header {
-	padding: 50px 0 20px 0;
-}
-
-.my-photo {
-	height: 200px;
-	width: auto;
-	border-radius: 50%;
-	float: right;
-	margin-right: 20px;
-}
-
-
-
-/* ----------------------------------------------- */
-/*   NAV BAR   */
-/* ----------------------------------------------- */
-nav {
-	list-style: none;
-	width: 80%; /* 80% of 1150 = 920 */
-	margin-left: 10%;
-	padding-bottom: 10px;
-	margin-top: 20px;
-	list-style: none;
-	/*border-bottom: 2px solid #003e53;*/
-	border-bottom: 2px solid #20cbd2;
-}
-
-nav li {
-	font-weight: 400;
-	display: inline-block;
-	padding: 10px 30px;
-}
-
-nav li:first-child {
-	margin-left: 40.56px;
-}
-
-
-
-/* ----------------------------------------------- */
-/*   SECTION-INFO   */
-/* ----------------------------------------------- */
-.section-info {
-	font-size: 90%;
-	line-height: 145%;
-	margin-bottom: 0;
-}
-
-.label-col {
+	height: 100vh;
+	background-color: #014d6f;
+	margin-top: 0;
+	padding-top: 0;
 	display: block;
-  float: left;
-  padding-left: 40px;
-  margin: 1% 0 1% 1.6%
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../img/amanda-sandlin-10508.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
 }
 
-.label-col:first-child { margin-left: 0; }
+.hero-text-box {
+	position: absolute;
+	width: 900px;
+	top: 50%;
+	left: 65%;
+	transform: translate(-50%, -50%);
+}
+
+.hero-text-box p { color: #fff }
 
 
-/* ------ QUERY ------ */ 
+/* ----------------------------------------------- */
+/*   INFO-COL + LANG-COL   */
+/* ----------------------------------------------- */
+.section-basic-info {
+	padding: 7% 8%;
+}
+
 .info-col {
-	/*border: 1px solid #fff;*/
-}
-
-.lang-col {
-	margin-left: 0;
-	/*border: 1px solid #000;*/
+	line-height: 135%;
 }
 
 
 
 /* ----------------------------------------------- */
-/*   SECTION-CODE EXPERIENCE   */
+/*   SECTION-CODE   */
 /* ----------------------------------------------- */
-.section-exp-goal {
-	width: 80%;
-	margin: 0 10%;
+.section-code {
+	background-color: #ededed;
 }
 
+.about-my-coding { 
+	padding: 10px 150px;
+	line-height: 150%; 
+}
 
-/* ----------------------------------------------- */
-/*   CAREER GOALS   */
-/* ----------------------------------------------- */
-.goals-list li {
+.code-stat-row {
+	padding: 2% 9%;
+}
+
+.code-lang-box {
+	/*padding: 0 100px;*/
+}
+
+.code-goals-box { 
 	list-style: none;
-	line-height: 150%;
+	/*padding: 0 60px;*/
+}
+
+.code-goals-box li { 
+	padding: 10px;
+	box-shadow: 1px 2px 2px #000;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+
+
+
+/* ----------------------------------------------- */
+/*   SECTION-MY-EXP   */
+/* ----------------------------------------------- */
+.my-exp-box {
+	width: 30%;
+	background-color: #014d6f;
+	color: #fff;
+	padding: 2%;
+	cursor: pointer;
+	margin: 1% 1%;
+}
+
+.exp-row .span-1-of-3 {
+	/*margin: 0;*/
+}
+
+.my-exp-box:first-of-type { margin-left: 3% }
+.my-exp-box:last-of-type { margin-right: 1% }
+
+
+/* ----------------------------------------------- */
+/*   TEST ZONE   */
+/* ----------------------------------------------- */
+.test-color-1 {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-color: #014d6f; 
 	color: #fff;
 }
 
+.test-color-2 {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-color: #379bcc; 
+	color: #fff;
+}
+
+.test-color-3 {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-color: #e2c029; 
+	color: #fff;
+}
+
+.test-color-4 {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-color: #001b30; 
+	color: #fff;
+}
+
+.test-color-5 {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-color: #ff5451; 
+	color: #fff;
+}
+
+.footerr {
+	margin-top: 400px;
+	height: 150px;
+	background-color: #a1aab1;
+}
+
+.fartt {
+	height: 100px;
+	background-color: #170b3d;
+}
 
 
-/* ----------------------------------------------- */
-/*   HIRE ME   */
-/* ----------------------------------------------- */
 
 
 
@@ -244,6 +338,8 @@ li:last-of-type {}
 #20cbd2 Aqua
 
 #9bcd54 green
+
+#170b3d self pick blue
 
 #fe4d53 Bright Coral
 	*/

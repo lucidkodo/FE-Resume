@@ -140,6 +140,18 @@ a:active {
 	cursor: pointer;
 }
 
+.ion-social-whatsapp,
+.ion-email,
+.ion-social-github,
+.ion-social-facebook {
+	transition: color 0.2s;
+}
+
+.ion-social-whatsapp:hover { color: #4dc247 }
+.ion-email:hover { color: #ff5451 }
+.ion-social-github:hover { color: #24292e }
+.ion-social-facebook:hover { color: #3b5998 }
+
 /* ----------------------------------------------- */
 /*   LEFT SIDEBAR + SITE CONTENT  */
 /* ----------------------------------------------- */
@@ -149,7 +161,6 @@ a:active {
 	margin-top: 0;
 	background-color: #001b30;
 	position: fixed;
-	/*display: none;*/
 }
 
 .site-content {
@@ -157,7 +168,6 @@ a:active {
 	margin: 0;
 	padding: 0;
 	float: right;
-	/*width: 100%;*/
 }
 
 
@@ -335,8 +345,15 @@ header {
 /*   FOOTER   */
 /* ----------------------------------------------- */
 footer {
-	background-color: #555;
+	background-color: #444;
 	height: 150px;
+}
+
+footer a:link,
+footer a:visited {
+	text-decoration: none;
+	transition: color 0.2s;
+	color: #888;
 }
 
 .connect-with-me {
@@ -356,7 +373,7 @@ footer {
 
 footer p {
 	text-align: center;
-	color: #fff;
+	color: #888 !important;
 }
 
 

@@ -148,7 +148,7 @@ a:active {
 }
 
 .ion-social-whatsapp:hover { color: #4dc247 }
-.ion-email:hover { color: #ff5451 }
+.ion-email:hover { color: #007bb5 }
 .ion-social-github:hover { color: #24292e }
 .ion-social-facebook:hover { color: #3b5998 }
 
@@ -359,7 +359,7 @@ footer a:visited {
 .connect-with-me {
 	width: 50%;
 	margin-top: 65px;
-	margin-left: 32.5%;
+	margin-left: 33%;
 	margin-bottom: 1%;
 }
 
@@ -369,69 +369,9 @@ footer a:visited {
 	margin: 10px 30px;
 }
 
-.ion-social-whatsapp { margin-left: 80.39px; }
+/*.ion-social-whatsapp { margin-left: 80.39px; }*/
 
 footer p {
 	text-align: center;
 	color: #888 !important;
 }
-
-
-
-
-
-
-
-/* ----------------------------------------------- */
-/*   TEST ZONE   */
-/* ----------------------------------------------- */
-.test-color-1 {
-	display: inline-block;
-	height: 50px;
-	width: 50px;
-	background-color: #014d6f; 
-	color: #fff;
-}
-
-.test-color-2 {
-	display: inline-block;
-	height: 50px;
-	width: 50px;
-	background-color: #379bcc; 
-	color: #fff;
-}
-
-.test-color-3 {
-	display: inline-block;
-	height: 50px;
-	width: 50px;
-	background-color: #e2c029; 
-	color: #fff;
-}
-
-.test-color-4 {
-	display: inline-block;
-	height: 50px;
-	width: 50px;
-	background-color: #001b30; 
-	color: #fff;
-}
-
-.test-color-5 {
-	display: inline-block;
-	height: 50px;
-	width: 50px;
-	background-color: #ff5451; 
-	color: #fff;
-}
-
-	/*
-
-	COLOR SELECTION 1: 
-	#003e53 My dark blue
-	#ff5451	Watermelon
-	#20cbd2 Aqua
-	#9bcd54 green
-	#fe4d53 Bright Coral
-	
-	*/

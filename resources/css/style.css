@@ -43,6 +43,10 @@ section {
 	padding: 1%;
 }
 
+.hide-me {
+	display: none;
+}
+
 
 
 /* ----------------------------------------------- */
@@ -89,6 +93,10 @@ p {
 	color: #fff;
 }
 
+.bold-text {
+	text-weight: bold-text;
+}
+
 
 
 /* ----------------------------------------------- */
@@ -126,7 +134,11 @@ a:active {
 	letter-spacing: -2px;
 }
 
-
+.ion-close {
+	text-align: right;
+	display: block;
+	cursor: pointer;
+}
 
 /* ----------------------------------------------- */
 /*   LEFT SIDEBAR + SITE CONTENT  */
@@ -145,6 +157,7 @@ a:active {
 	margin: 0;
 	padding: 0;
 	float: right;
+	/*width: 100%;*/
 }
 
 
@@ -249,7 +262,7 @@ header {
 /* ----------------------------------------------- */
 /*   SECTION-MY-EXP   */
 /* ----------------------------------------------- */
-.my-exp-box {
+.my-exp {
 	width: 30%;
 	background-color: #014d6f;
 	color: #fff;
@@ -258,12 +271,98 @@ header {
 	margin: 1% 1%;
 }
 
-.exp-row .span-1-of-3 {
-	/*margin: 0;*/
+.my-exp:hover,
+.my-exp:active {
+	background-color: #001b30;
 }
 
-.my-exp-box:first-of-type { margin-left: 3% }
-.my-exp-box:last-of-type { margin-right: 1% }
+.expActive {
+	background-color: #001b30;
+}
+
+.my-exp:first-of-type { margin-left: 3% }
+.my-exp:last-of-type { margin-right: 1% }
+
+.exp-info li {
+	list-style: none;
+}
+
+.exp-info {
+	width: 50%;
+	margin-left: 25%;
+	background-color: #fff; 
+	padding: 1% 3%;
+	box-shadow: 1px 2px 2px #000;
+}
+
+.exp-info .bold-text {
+	font-weight: bold;
+}
+
+
+
+
+/* ----------------------------------------------- */
+/*   SECTION-TWO-CENTS   */
+/* ----------------------------------------------- */
+.section-two-cents {
+	background-color: #ededed;
+}
+
+.bonus {
+	margin-bottom: 5%;
+	width: 70%;
+	margin-left: 15%;
+}
+
+.bonus li {
+	list-style: none;
+	padding: 1%;
+}
+
+.bonus p {
+	font-weight: 400;
+}
+
+.final-notes {
+	width: 80%;
+	margin-left: 10%;
+}
+
+
+
+/* ----------------------------------------------- */
+/*   FOOTER   */
+/* ----------------------------------------------- */
+footer {
+	background-color: #555;
+	height: 150px;
+}
+
+.connect-with-me {
+	width: 50%;
+	margin-top: 65px;
+	margin-left: 32.5%;
+	margin-bottom: 1%;
+}
+
+.connect-with-me i {
+	font-size: 180%;
+	text-align: center;
+	margin: 10px 30px;
+}
+
+.ion-social-whatsapp { margin-left: 80.39px; }
+
+footer p {
+	text-align: center;
+	color: #fff;
+}
+
+
+
+
+
 
 
 /* ----------------------------------------------- */
@@ -309,37 +408,13 @@ header {
 	color: #fff;
 }
 
-.footerr {
-	margin-top: 400px;
-	height: 150px;
-	background-color: #a1aab1;
-}
-
-.fartt {
-	height: 100px;
-	background-color: #170b3d;
-}
-
-
-
-
-
-
-
-
-/*
-li:first-of-type {}
-li:last-of-type {}
-*/
-
 	/*
-#003e53 My dark blue
-#ff5451	Watermelon
-#20cbd2 Aqua
 
-#9bcd54 green
-
-#170b3d self pick blue
-
-#fe4d53 Bright Coral
+	COLOR SELECTION 1: 
+	#003e53 My dark blue
+	#ff5451	Watermelon
+	#20cbd2 Aqua
+	#9bcd54 green
+	#fe4d53 Bright Coral
+	
 	*/

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta charset="view-port" content="width=device-width, initial-scale=1.0">
-		<meta name="This is my resume. Made with love, sweat, HTML and CSS; by lucidkodo.">
+		<meta name="This is my web resume. Made with love, sweat, HTML and CSS; by lucidkodo.">
 
 		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
@@ -33,10 +33,10 @@
 			<img src="resources/img/my-other-photo.jpg" alt="My Photo" class="my-photo">
 			<nav>
 				<ul>
-					<li><a href="#">Basic Information</a></li>
-					<li><a href="#">Coding Background</a></li>
-					<li><a href="#">Previous Experiences</a></li>
-					<li><a href="#">Hire Me!</a></li> 
+					<li><a href="#basic-info">Basic Information</a></li>
+					<li><a href="#coding-bg">Coding Background</a></li>
+					<li><a href="#prev-exp">Previous Experiences</a></li>
+					<li><a href="#final-notes">Hire Me!</a></li> 
 				</ul>
 			</nav>
 		</div>
@@ -50,7 +50,7 @@
 				</div>
 			</header>				
 
-			<section class="section-basic-info">
+			<section class="section-basic-info" id="basic-info">
 				<h2>Basic Information</h2>
 				<div class="row">
 
@@ -193,10 +193,10 @@
 				</div> <!-- basic-info-row --> 
 			</section>
 
-			<section class="section-code">
+			<section class="section-code" id="coding-bg">
 				<h2>Coding Background</h2>
 				<div class="row">
-					<p class="about-my-coding">I just started coding this year! Learning to code was at first taunting and challenging. Then it became empowering, humbling, and exciting! I believe what I lacked in experience, I make up in enthusiasm! (I have learned to live for the sweet moments when the code works!) It would be such an honor to be a part of your team.</p>
+					<p class="about-my-coding">I just started coding this year! (If you're reading in 2017 of course! Time travellers excluded! ;)) Learning to code was at first taunting and challenging. Then it became empowering, humbling, and exciting! I believe what I lacked in experience, I make up in enthusiasm! (I have learned to live for the sweet moments when the code works!) It would be such an honor to be a part of your team.</p>
 				</div>
 
 				<div class="row code-stat-row">
@@ -276,39 +276,74 @@
 					</div> <!-- code-goals-col -->					
 				</div> <!-- code-stat-row -->
 			</section>
-
-			<section class="section-my-exp">
+			<section class="section-my-exp" id="prev-exp">
 				<h2>My Previous Experiences</h2>
-				<div class="row exp-row">
 
-					<div class="col span-1-of-3 my-exp-box">
+				<div class="row">
+					<div class="col span-1-of-3 my-exp js--exp-1">
 						<h3>Publication Executive</h3>
 						<a href="http://www.kanyinpublications.com" target="_blank" class="smaller-p">Kanyin Publications</a>
 						<p>&nbsp;</p>
 						<p>&nbsp;</p>
-						<p class="smaller-p"><em>Publishing (2 years)</em></p>
+						<p class="smaller-p"><em>Publishing</em></p>
 					</div>
 
-					<div class="col span-1-of-3 my-exp-box">
+					<div class="col span-1-of-3 my-exp js--exp-2">
 						<h3>Project Coordinator</h3>
 						<a href="http://www.casad.com.my/" target="_blank" class="smaller-p">CAS Ad Marketing</a>
 						<p>&nbsp;</p>
 						<p>&nbsp;</p>
-						<p class="smaller-p"><em>Sign Making (1.5 years)</em></p>
+						<p class="smaller-p"><em>Sign Making</em></p>
 					</div>
 
-					<div class="col span-1-of-3 my-exp-box">
+
+					<div class="col span-1-of-3 my-exp js--exp-3">
 						<h3>Bartender cum Cashier</h3>
 						<a href="https://www.tealive.com.my/" target="_blank" class="smaller-p">Loob Holding</a><br>
 						<a href="https://www.facebook.com/macoto.tea/" class="smaller-p">Maco Garden</a>
 						<p>&nbsp;</p>
-						<p class="smaller-p"><em>Food and Beverage (2 years)</em></p>
+						<p class="smaller-p"><em>Food and Beverage</em></p>
 					</div>
 				</div>
 
-				<div class="row exp-row">
+				<div class="row">
+					<div>
+						<ul class="hide-me exp-info js--exp-info-1">
+						<i class="ion-close closeExp1"></i>
+							<li><p>As a <span class="bold-text">publication executive</span>, I did:</p></li>
+							<li>&nbsp;</li>
+	    				<li><p>Manuscript screening</p></li>
+	    				<li><p>Events and publications coordination</p></li>
+	    				<li><p>Manage authors and bookstores<p></li>
+							<li>&nbsp;</li>
+	    				<li><p>Referee: <span class="bold-text">Adrian Kok (CEO)</span> adriankok@kanyinbooks.com</p></li>
+						</ul>
 
-					<div class="col span-1-of-3 my-exp-box">
+						<ul class="hide-me exp-info js--exp-info-2">
+						<i class="ion-close closeExp2"></i>
+							<li><p>As a <span class="bold-text">project coordinator</span>, I did:</p></li>
+							<li>&nbsp;</li>
+	    				<li><p>On-site monitoring</p></li>
+	    				<li><p>Make sure projects done within budget</p></li>
+	    				<li><p>Manage installers and clients</p></li>
+							<li>&nbsp;</li>
+	    				<li><p>Referee: <span class="bold-text">Gary Ng (CEO)</span> gary@casad.com.my</p></li>
+						</ul>
+
+						<ul class="hide-me exp-info js--exp-info-3">
+						<i class="ion-close closeExp3"></i>
+							<li><p>As a <span class="bold-text">bartender cum cashier</span>, I did:</p></li>
+							<li>&nbsp;</li>
+	    				<li><p>Make drinks and food</p></li>
+	    				<li><p>Train new staffs</p></li>
+	    				<li><p>Innovate menu items</p></li>
+						</ul>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col span-1-of-3 my-exp js--exp-4">
 						<h3>Admin cum Agent</h3>
 						<a href="https://www.hla.com.my/" target="_blank" class="smaller-p">Hong Leong Assurance</a>
 						<p>&nbsp;</p>
@@ -316,7 +351,7 @@
 						<p class="smaller-p"><em>Insurance</em></p>
 					</div>
 
-					<div class="col span-1-of-3 my-exp-box">
+					<div class="col span-1-of-3 my-exp js--exp-5">
 						<h3>Agent</h3>
 						<a href="#" target="_blank" class="smaller-p">Queen Lai Property</a>
 						<p>&nbsp;</p>
@@ -324,7 +359,7 @@
 						<p class="smaller-p"><em>Property</em></p>
 					</div>
 
-					<div class="col span-1-of-3 my-exp-box">
+					<div class="col span-1-of-3 my-exp js--exp-6">
 						<h3>Admin Clerk</h3>
 						<a href="#" target="_blank" class="smaller-p">Meta Millions</a><br>
 						<p>&nbsp;</p>
@@ -333,36 +368,79 @@
 					</div>
 				</div>
 
+				<div class="row">
+					<div>
+						<ul class="hide-me exp-info js--exp-info-4">
+						<i class="ion-close closeExp4"></i>
+	    				<li><p>As an <span class="bold-text">admin and agent</span>, I did: </p></li>
+	    				<li>&nbsp;</li>
+	    				<li><p>Key-in policy entires</p></li>
+	    				<li><p>Manage existing policies</p></li>
+	    				<li><p>Attend trainings for new policies and plans</p></li>
+						</ul>
+
+						<ul class="hide-me exp-info js--exp-info-5">
+						<i class="ion-close closeExp5"></i>
+	    				<li><p>As an <span class="bold-text">agent</span>, I did:</p></li>
+	    				<li>&nbsp;</li>
+	    				<li><p>Bring customers to showroom</p></li>
+	    				<li><p>Provide information about properties to customers</p></li>
+						</ul>
+
+						<ul class="hide-me exp-info js--exp-info-6">
+						<i class="ion-close closeExp6"></i>
+	    				<li><p>As an <span class="bold-text">admin clerk</span>, I did:</p></li>
+	    				<li>&nbsp;</li>
+	    				<li><p>Key-in and manage sales entries</p></li>
+	    				<li><p>Bank in sales to account</p></li>
+						</ul>
+					</div>
 				</div>
 
+			</section>
 
-				<div class="row js--">
+			<section class="section-two-cents" id="final-notes">
+				<h2>Hire Me!</h2>
+				<div class="row">
+
+					<ul class="bonus">
+						<li><p>I would love to learn new frameworks and languages for professional use.</p></li>
+						<li><p>Reasonable extra working hours are acceptable.</p></li>
+						<li><p>Traveling / Relocating for work is not a problem. (Working remotely is preferred.)</p></li>
+						<li><p>I believe I have the persistance to get through challenges.</p></li>
+					</ul>
+
+					<p class="final-notes">
+						Thank you so much for checking out my resume! I am actively looking for a company to grow together and I would be honored to be a part of your team. 
+					</p> 
 					
 				</div>
 			</section>
 
-
-
-
-
-
-			<div class="row">
+			<footer>
 				<div class="row">
-					<div class="test-color-1">1</div>
-					<div class="test-color-2">2</div>
-					<div class="test-color-3">3</div>
-					<div class="test-color-4">4</div>
-					<div class="test-color-5">5</div>
+					<div class="connect-with-me">
+						<a href="#"><i class="ion-social-whatsapp"></i></a>
+						<a href="#"><i class="ion-email"></i></a>
+						<a href="#"><i class="ion-social-github"></i></a>
+						<a href="#"><i class="ion-social-facebook"></i></a>
+					</div>
 				</div>
-			</div>
-
-			<footer>footer</footer>
+				<div>
+					<p class="smaller-p">
+						Copyright &copy; 2017 by lucidkodo. All rights reserved.
+					</p>
+				</div>
+			</footer>
 
 		</div> <!-- site-content -->
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+		<script src="vendors/js/jquery.waypoints.min.js"></script>
+		<script src="resources/js/script.js"></script> <!--LAST ONE-->
 	</body>
 
 </html>
-
-
-

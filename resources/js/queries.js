@@ -6,6 +6,7 @@
 /* 1061px ~ 1200px */
 @media only screen and (max-width: 1200px) {
 	.connect-with-me { margin-left: 30.5%; }
+	.hero-text-box { left: 70%; }
 }
 
 /* 1024 ~ 1060 */

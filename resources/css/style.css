@@ -115,7 +115,9 @@ a:visited {
  }
 
 a:hover,
-a:active {
+a:active,
+.credits-to a:hover,
+.credits-to a:active {
 	color: #ff5451;
 	cursor: pointer;
  	transition: color 0.2s;
@@ -164,7 +166,7 @@ a:active {
 }
 
 .site-content {
-	width: 78.1%;
+	width: 78%;
 	margin: 0;
 	padding: 0;
 	float: right;
@@ -346,7 +348,7 @@ header {
 /* ----------------------------------------------- */
 footer {
 	background-color: #444;
-	height: 150px;
+	height: 200px;
 }
 
 footer a:link,
@@ -358,7 +360,7 @@ footer a:visited {
 
 .connect-with-me {
 	width: 50%;
-	margin-top: 65px;
+	margin-top: 40px;
 	margin-left: 33%;
 	margin-bottom: 1%;
 }
@@ -369,9 +371,28 @@ footer a:visited {
 	margin: 10px 30px;
 }
 
-/*.ion-social-whatsapp { margin-left: 80.39px; }*/
+.credit-p {	font-size: 70% }
+.copyright { font-size: 65% }
 
-footer p {
+.credit-p,
+.copyright {
+	color: #888;
 	text-align: center;
-	color: #888 !important;
 }
+
+.credits-to {
+	width: 50%;
+	margin-left: 25%;
+}
+
+.credits-to li {
+	text-align: center;
+	font-family: 'Montserrat';
+	font-size: 80%;
+	display: block;
+	padding: 3px 0;
+	color: #888;
+}
+
+.credits-to p { color: #888 }
+.copyright { padding-top: 10px  }

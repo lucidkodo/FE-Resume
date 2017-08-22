@@ -341,6 +341,31 @@ header {
 	margin-left: 10%;
 }
 
+.pdf-resume {
+	font-family: 'Fira Sans'
+}
+
+
+
+/* ----------------------------------------------- */
+/*   FUN FACTS   */
+/* ----------------------------------------------- */
+.section-fun-facts h3 {
+	text-align: center;
+	color: #014d6f;
+	font-size: 120%;
+	padding-bottom: 20px;
+}
+
+.my-facts-list {
+	width: 60%;
+	margin-left: 20%;
+	text-align: center;
+}
+
+.my-facts-list p {
+	line-height: 150%;
+}
 
 
 /* ----------------------------------------------- */
@@ -359,7 +384,7 @@ footer a:visited {
 }
 
 .connect-with-me {
-	margin-top: 40px;
+	margin-top: 30px;
 	margin-bottom: 1%;
 }
 
@@ -372,18 +397,19 @@ footer a:visited {
 .connect-with-me li {
 	list-style: none;
 	display: inline-block;
-	padding: 0.5% 1%;
+	padding: 0.5% 2%;
 }
 
 .connect-with-me i { font-size: 180% }
 
 .social-connect {
-	margin-left: 42%;
+	margin-left: 39%;
 }
 
 
 .credit-p {	font-size: 70% }
 .copyright { font-size: 65% }
+
 .credit-p,
 .copyright {
 	color: #888;
@@ -405,4 +431,4 @@ footer a:visited {
 }
 
 .credits-to p { color: #888 }
-.copyright { padding-top: 10px  }
+.copyright { padding-top: 25px  }

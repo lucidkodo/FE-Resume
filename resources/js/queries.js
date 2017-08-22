@@ -1,16 +1,5 @@
-/* 1201px ~ 1400px */
-@media only screen and (max-width: 1400px) {
-	.connect-with-me { margin-left: 33%; }
-}
-
-/* 1061px ~ 1200px */
-@media only screen and (max-width: 1200px) {
-	.connect-with-me { margin-left: 30.5%; }
-	.hero-text-box { left: 70%; }
-}
-
-/* 1024 ~ 1060 */
-@media only screen and (max-width: 1060px) {
+/* 1024px ~ 1070px */
+@media only screen and (max-width: 1070px) {
 	.left-panel {
 		height: 73px;
 		width: 100%;
@@ -40,9 +29,9 @@
 		display: inline;
 		padding: 0 20px;
 	}
-
-	.connect-with-me { margin-left: 32%; }
 }
+
+
 
 /* 768px ~ 1023px */
 @media only screen and (max-width: 1023px) {

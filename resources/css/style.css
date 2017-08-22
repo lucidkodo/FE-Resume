@@ -348,7 +348,7 @@ header {
 /* ----------------------------------------------- */
 footer {
 	background-color: #444;
-	height: 200px;
+	height: 250px;
 }
 
 footer a:link,
@@ -359,21 +359,31 @@ footer a:visited {
 }
 
 .connect-with-me {
-	width: 50%;
 	margin-top: 40px;
-	margin-left: 33%;
 	margin-bottom: 1%;
 }
 
-.connect-with-me i {
-	font-size: 180%;
-	text-align: center;
-	margin: 10px 30px;
+.connect-with-me h3 { 
+	text-align: center; 
+	color: #888;
+	padding-bottom: 5px;
 }
+
+.connect-with-me li {
+	list-style: none;
+	display: inline-block;
+	padding: 0.5% 1%;
+}
+
+.connect-with-me i { font-size: 180% }
+
+.social-connect {
+	margin-left: 42%;
+}
+
 
 .credit-p {	font-size: 70% }
 .copyright { font-size: 65% }
-
 .credit-p,
 .copyright {
 	color: #888;

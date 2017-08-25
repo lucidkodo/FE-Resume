@@ -48,6 +48,7 @@ $(document).ready(function() {
   job1.addEventListener('click', function() {
     expInfo1.classList.remove('hide-me');
     job1.classList.add('expActive');
+    // expInfo1.focus();
     closeBtn1.addEventListener('click', function(){
       expInfo1.classList.add('hide-me');
       job1.classList.remove('expActive');
@@ -168,7 +169,7 @@ $(document).ready(function() {
 
 
   ////////////////////////////////////////////
-  ///// SMOOTH NAV SCROLL
+  ///// NAV SCROLL
   ////////////////////////////////////////////
 
     // Select all links with hashes
@@ -209,7 +210,7 @@ $(document).ready(function() {
     });
 
   ////////////////////////////////////////////
-  ///// MOBILE NAVIGATION
+  ///// MOBILE NAVBAR
   ////////////////////////////////////////////
   $('.burger-i').click(function() {
     var nav = $('.js--main-nav');
@@ -228,30 +229,19 @@ $(document).ready(function() {
   ////////////////////////////////////////////
   ///// MOBILE MENU
   ////////////////////////////////////////////
-  $('.js--section-bi').waypoint(function(direction) {
-    if (direction == "down") {
-      $('nav').addClass('sticky');
-    } else {
-      $('nav').removeClass('sticky');
-    }
-  }, {
-    offset: '120px'
-  });
-
 
   // CHECK MEDIA QUERY
-  if (window.matchMedia("(width: 481px)").matches) {  
-    // $('.js--section-bi').waypoint(function(direction) {
-    //   if (direction == "down") {
-        // $('.left-panel').css({'background-color' : 'rgba(0, 27, 48, 0.95)'});
-        // $('.js--main-nav').css({'background-color' : 'rgba(0, 27, 48, 0.95)'});
-      // } else {
-      //   $('.left-panel').css({'background-color' : 'rgba(0,0,0,0)'});
-      //   $('.js--main-nav').css({'background-color' : 'rgba(0,0,0,0)'});
-    //   }
-    // }, {
-    //   offset: '60px'
-    // });  
+  if ((window.matchMedia("(min-width: 200px)").matches) && (window.matchMedia("(max-width: 767px)").matches)) {
+
+    $('.js--section-bi').waypoint(function(direction) {
+      if (direction == "down") {
+        $('nav').addClass('sticky');
+      } else {
+        $('nav').removeClass('sticky');
+      }
+    }, {
+      offset: '120px'
+    });  
   };
 
 });

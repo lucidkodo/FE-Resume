@@ -1,5 +1,5 @@
 /* 1024px ~ 1070px */
-@media only screen and (max-width: 1070px) {
+@media only screen and (min-device-width: 1024px) and (max-width: 1070px) {
 	.left-panel {
 		height: 73px;
 		width: 100%;
@@ -35,7 +35,7 @@
 
 
 /* 768px ~ 1023px */
-@media only screen and (max-width: 1023px) {
+@media only screen and (min-device-width: 768px) and (max-width: 1023px) {
 	nav {
 		text-align: left;
 		padding-right: 0;
@@ -64,20 +64,20 @@
 } 
 
 
+
 /* 481px ~ 767px */
-@media only screen and (max-width: 767px) {
+@media only screen and (min-device-width: 481px) and (max-width: 767px) {
 	body {
 		font-size: 85%;
 	}
 
-	/*.left-panel { background-color: unset; }*/
+	p { font-size: 100% }
+
+	.left-panel { background-color: rgba(0,0,0,0); }
 
 	.hero-text-box {
-		position: absolute;
 		width: 500px;
-		top: 50%;
-		left: 65%;
-		transform: translate(-50%, -50%);
+		transform: translate(-55%, -50%);
 	}
 
 	.main-nav { display: none }
@@ -90,42 +90,119 @@
 		color: #ff5451;
 	}
 
-	.main-nav {
-		float: left;
-		background-color: #001b30;
-	}
-
-
 	nav li {
-		width: 100vw;
 		display: block;
 		list-style: none;
-		line-height: 100%;
-		padding: 20px 22px 20px 50px;
-		/*margin-left: 50px;*/
+		padding: 20px 22px 20px 60px;
 	}
-
-
-
-
-
 
 	.section-basic-info { padding: 7% 5% }
+	.section-basic-info .span-1-of-2 { width: 100% }
 
-	.span-5-of-7 p {
-		margin-left: 10px;
+	.info-col {
+		margin-left: 7%
 	}
 
-	.lang-written {
-		margin-left: 5px;
+	.lang-col {
+		width: 90%;
+		margin-left: 5%;
 	}
 
-	.about-my-coding { padding: 3% 9% }
+	.about-my-coding { 
+		padding: 0 9%;
+		padding-bottom: 3%; 
+	}
 
-	.social-connect { margin-left: 36.5%; }
+	.code-stat-col { 
+		width: 100%;
+		padding: 0 20%; 
+		padding-bottom: 5%;
+	}
+
+	.lang-names p { line-height: 145% }
+
+	.lang-stars i {
+		line-height: 120%;
+		vertical-align: -1px;
+	}
+
+	/* To align with boxes */
+	/*.lang-names { border: 1px solid #000 }
+	.lang-stars { border: 1px solid #000 }*/
+
+	.code-goals-col { width: 100%; }
+
+	.section-my-exp .span-1-of-3 { margin: 0 }
+
+	.exp-box { 
+		padding: 3% !important;
+		display: block;
+		width: 70%;
+		margin: 1% 15% !important;  
+		height: 130px;
+	}
+
+	.exp-info { 
+		width: 80%;
+		margin: 5% 0;
+		margin-left: 10%; 
+	}
+
+	.exp-info p { font-size: 100%; }
+
+	.bonus,
+	.final-notes { 
+		width: 85%;
+		margin-left: 7.5%;
+	}
+
+	.my-facts-list { 
+		width: 85%;
+		margin-left: 7.5%;
+		padding: 0;
+	}
+
+	.social-connect { margin-left: 33%; }
 }
 
-/* 0 ~ 480px */
-@media only screen and (max-width: 480px) {
+
+
+/* 321 ~ 480px */
+@media only screen and (min-device-width: 321px) and (max-width: 480px) {
+	body {
+		font-size: 70%;
+	}
+
+	.hero-text-box {
+		width: 300px;
+		transform: translate(-56%, -50%);
+	}
+
+	nav li {
+		padding: 15px 40px 15px 30px;
+	}
+
+	nav li a { font-size: 110% }
+
+	.section-basic-info { padding: 5% 1% }
+	.section-basic-info .span-1-of-2 { width: 100% }
+
+	.info-col {
+		width: 100% !important;
+		margin-left: 1%;
+		padding: 0;
+	}
+
+	.lang-col {
+		margin: 0;
+	}
+
+
+}
+
+
+
+/* 0 ~ 320px */
+@media only screen and (min-device-width: 200px) and (max-width: 320px) {
 	
 }

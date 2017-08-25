@@ -168,7 +168,7 @@ $(document).ready(function() {
 
 
   ////////////////////////////////////////////
-  ///// JS WAY POINT
+  ///// SMOOTH NAV SCROLL
   ////////////////////////////////////////////
 
     // Select all links with hashes
@@ -213,7 +213,7 @@ $(document).ready(function() {
   ////////////////////////////////////////////
   $('.burger-i').click(function() {
     var nav = $('.js--main-nav');
-    var icon = $('.burger-i');
+    var icon = $('.burger-i i');
 
     nav.slideToggle(200);
     if (icon.hasClass('ion-navicon-round')) {
@@ -223,6 +223,35 @@ $(document).ready(function() {
       icon.addClass('ion-navicon-round');
       icon.removeClass('ion-close-round');
     }
-  });  
+  });
+
+  ////////////////////////////////////////////
+  ///// MOBILE MENU
+  ////////////////////////////////////////////
+  $('.js--section-bi').waypoint(function(direction) {
+    if (direction == "down") {
+      $('nav').addClass('sticky');
+    } else {
+      $('nav').removeClass('sticky');
+    }
+  }, {
+    offset: '120px'
+  });
+
+
+  // CHECK MEDIA QUERY
+  if (window.matchMedia("(width: 481px)").matches) {  
+    // $('.js--section-bi').waypoint(function(direction) {
+    //   if (direction == "down") {
+        // $('.left-panel').css({'background-color' : 'rgba(0, 27, 48, 0.95)'});
+        // $('.js--main-nav').css({'background-color' : 'rgba(0, 27, 48, 0.95)'});
+      // } else {
+      //   $('.left-panel').css({'background-color' : 'rgba(0,0,0,0)'});
+      //   $('.js--main-nav').css({'background-color' : 'rgba(0,0,0,0)'});
+    //   }
+    // }, {
+    //   offset: '60px'
+    // });  
+  };
 
 });

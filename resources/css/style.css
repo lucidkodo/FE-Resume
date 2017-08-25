@@ -195,6 +195,16 @@ nav li {
 	padding: 20px 0;
 }
 
+.burger-i { display: none; }
+
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0, 27, 48, 0.93);
+}
+
 
 
 /* ----------------------------------------------- */

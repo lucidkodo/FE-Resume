@@ -1,4 +1,5 @@
-/* 1024px ~ 1070px */
+/****************************/
+/********* 1024px ~ 1070px */
 @media only screen and (min-device-width: 1024px) and (max-width: 1070px) {
 	.left-panel {
 		height: 73px;
@@ -33,8 +34,8 @@
 }
 
 
-
-/* 768px ~ 1023px */
+/***************************/
+/********* 768px ~ 1023px */
 @media only screen and (min-device-width: 768px) and (max-width: 1023px) {
 	nav {
 		text-align: left;
@@ -64,8 +65,8 @@
 } 
 
 
-
-/* 481px ~ 767px */
+/**************************/
+/********* 481px ~ 767px */
 @media only screen and (min-device-width: 481px) and (max-width: 767px) {
 	body {
 		font-size: 85%;
@@ -166,9 +167,9 @@
 }
 
 
-
-/* 321 ~ 480px */
-@media only screen and (min-device-width: 321px) and (max-width: 480px) {
+/*************************/
+/********* 320 ~ 480px */
+@media only screen and (min-device-width: 320px) and (max-width: 480px) {
 	body {
 		font-size: 70%;
 	}
@@ -185,24 +186,54 @@
 	nav li a { font-size: 110% }
 
 	.section-basic-info { padding: 5% 1% }
-	.section-basic-info .span-1-of-2 { width: 100% }
 
-	.info-col {
-		width: 100% !important;
+	.info-label {
 		margin-left: 1%;
-		padding: 0;
+		padding-left: 2%;
+		width: 35%;
 	}
 
-	.lang-col {
-		margin: 0;
+	.cont-label {
+		width: 40%;
 	}
 
+	.lang-col { padding-top: 10px; }
 
-}
-
-
-
-/* 0 ~ 320px */
-@media only screen and (min-device-width: 200px) and (max-width: 320px) {
+	.l-1 { width: 28% }
 	
+	.l-2, .l-3 { 
+		width: 32%;
+		padding: 0 2.2%;
+		margin-left: 2%;
+	}
+
+	.l-2 i, .l-3 i { 
+		font-size: 110%;
+	}
+
+	.code-stat-col {
+		padding: 0;
+		margin: 0;
+		padding-bottom: 20px;
+	}
+
+	.lang-names,
+	.lang-stars { width: 50%; /*border: 1px solid #000*/ }
+
+	.lang-names p { 
+		font-size: 120%;
+		line-height: 145%; 
+	}
+
+	footer { 
+		height: 220px; 
+		font-size: 120%;
+	}
+
+	.credits-to { 
+		width: 80%;
+		margin-left: 10%; 
+	}
+
+	.social-connect { margin-left: 27.5%; }
 }

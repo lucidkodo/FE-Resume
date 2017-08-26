@@ -48,6 +48,7 @@ $(document).ready(function() {
   job1.addEventListener('click', function() {
     expInfo1.classList.remove('hide-me');
     job1.classList.add('expActive');
+    // expInfo1.focus();
     closeBtn1.addEventListener('click', function(){
       expInfo1.classList.add('hide-me');
       job1.classList.remove('expActive');
@@ -168,7 +169,7 @@ $(document).ready(function() {
 
 
   ////////////////////////////////////////////
-  ///// JS WAY POINT
+  ///// NAV SCROLL
   ////////////////////////////////////////////
 
     // Select all links with hashes
@@ -207,5 +208,40 @@ $(document).ready(function() {
         }
       }
     });
+
+  ////////////////////////////////////////////
+  ///// MOBILE NAVBAR
+  ////////////////////////////////////////////
+  $('.burger-i').click(function() {
+    var nav = $('.js--main-nav');
+    var icon = $('.burger-i i');
+
+    nav.slideToggle(200);
+    if (icon.hasClass('ion-navicon-round')) {
+      icon.addClass('ion-close-round');
+      icon.removeClass('ion-navicon-round');
+    } else {
+      icon.addClass('ion-navicon-round');
+      icon.removeClass('ion-close-round');
+    }
+  });
+
+  ////////////////////////////////////////////
+  ///// MOBILE MENU
+  ////////////////////////////////////////////
+
+  // CHECK MEDIA QUERY
+  if ((window.matchMedia("(min-width: 200px)").matches) && (window.matchMedia("(max-width: 767px)").matches)) {
+
+    $('.js--section-bi').waypoint(function(direction) {
+      if (direction == "down") {
+        $('nav').addClass('sticky');
+      } else {
+        $('nav').removeClass('sticky');
+      }
+    }, {
+      offset: '120px'
+    });  
+  };
 
 });

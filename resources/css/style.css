@@ -115,7 +115,9 @@ a:visited {
  }
 
 a:hover,
-a:active {
+a:active,
+.credits-to a:hover,
+.credits-to a:active {
 	color: #ff5451;
 	cursor: pointer;
  	transition: color 0.2s;
@@ -140,6 +142,18 @@ a:active {
 	cursor: pointer;
 }
 
+.ion-social-whatsapp,
+.ion-email,
+.ion-social-github,
+.ion-social-facebook {
+	transition: color 0.2s;
+}
+
+.ion-social-whatsapp:hover { color: #4dc247 }
+.ion-email:hover { color: #007bb5 }
+.ion-social-github:hover { color: #24292e }
+.ion-social-facebook:hover { color: #3b5998 }
+
 /* ----------------------------------------------- */
 /*   LEFT SIDEBAR + SITE CONTENT  */
 /* ----------------------------------------------- */
@@ -149,15 +163,13 @@ a:active {
 	margin-top: 0;
 	background-color: #001b30;
 	position: fixed;
-	/*display: none;*/
 }
 
 .site-content {
-	width: 78.1%;
+	width: 78%;
 	margin: 0;
 	padding: 0;
 	float: right;
-	/*width: 100%;*/
 }
 
 
@@ -329,92 +341,94 @@ header {
 	margin-left: 10%;
 }
 
+.pdf-resume {
+	font-family: 'Fira Sans'
+}
+
+
+
+/* ----------------------------------------------- */
+/*   FUN FACTS   */
+/* ----------------------------------------------- */
+.section-fun-facts h3 {
+	text-align: center;
+	color: #014d6f;
+	font-size: 120%;
+	padding-bottom: 20px;
+}
+
+.my-facts-list {
+	width: 60%;
+	margin-left: 20%;
+	text-align: center;
+}
+
+.my-facts-list p {
+	line-height: 150%;
+}
 
 
 /* ----------------------------------------------- */
 /*   FOOTER   */
 /* ----------------------------------------------- */
 footer {
-	background-color: #555;
-	height: 150px;
+	background-color: #444;
+	height: 250px;
+}
+
+footer a:link,
+footer a:visited {
+	text-decoration: none;
+	transition: color 0.2s;
+	color: #888;
 }
 
 .connect-with-me {
-	width: 50%;
-	margin-top: 65px;
-	margin-left: 32.5%;
+	margin-top: 30px;
 	margin-bottom: 1%;
 }
 
-.connect-with-me i {
-	font-size: 180%;
+.connect-with-me h3 { 
+	text-align: center; 
+	color: #888;
+	padding-bottom: 5px;
+}
+
+.connect-with-me li {
+	list-style: none;
+	display: inline-block;
+	padding: 0.5% 2%;
+}
+
+.connect-with-me i { font-size: 180% }
+
+.social-connect {
+	margin-left: 39%;
+}
+
+
+.credit-p {	font-size: 70% }
+.copyright { font-size: 65% }
+
+.credit-p,
+.copyright {
+	color: #888;
 	text-align: center;
-	margin: 10px 30px;
 }
 
-.ion-social-whatsapp { margin-left: 80.39px; }
+.credits-to {
+	width: 50%;
+	margin-left: 25%;
+}
 
-footer p {
+.credits-to li {
 	text-align: center;
-	color: #fff;
+	font-family: 'Montserrat';
+	font-size: 80%;
+	display: block;
+	padding: 3px 0;
+	color: #888;
 }
 
-
-
-
-
-
-
-/* ----------------------------------------------- */
-/*   TEST ZONE   */
-/* ----------------------------------------------- */
-.test-color-1 {
-	display: inline-block;
-	height: 50px;
-	width: 50px;
-	background-color: #014d6f; 
-	color: #fff;
-}
-
-.test-color-2 {
-	display: inline-block;
-	height: 50px;
-	width: 50px;
-	background-color: #379bcc; 
-	color: #fff;
-}
-
-.test-color-3 {
-	display: inline-block;
-	height: 50px;
-	width: 50px;
-	background-color: #e2c029; 
-	color: #fff;
-}
-
-.test-color-4 {
-	display: inline-block;
-	height: 50px;
-	width: 50px;
-	background-color: #001b30; 
-	color: #fff;
-}
-
-.test-color-5 {
-	display: inline-block;
-	height: 50px;
-	width: 50px;
-	background-color: #ff5451; 
-	color: #fff;
-}
-
-	/*
-
-	COLOR SELECTION 1: 
-	#003e53 My dark blue
-	#ff5451	Watermelon
-	#20cbd2 Aqua
-	#9bcd54 green
-	#fe4d53 Bright Coral
-	
-	*/
+.credits-to p { color: #888 }
+.copyright { padding-top: 25px  }

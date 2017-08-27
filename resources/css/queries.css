@@ -1,11 +1,13 @@
 /****************************/
 /********* 1024px ~ 1070px */
-@media only screen and (min-device-width: 1024px) and (max-width: 1070px) {
+@media only screen and (max-width: 1070px) {
 	.left-panel {
-		height: 73px;
 		width: 100%;
+		height: 70px;
+		padding-top: 10px;
 		background-color: #001b30;
 		position: fixed;
+		overflow-x: hidden;
 		z-index: 999;
 	}
 
@@ -14,7 +16,6 @@
 		margin: 0;
 		padding: 0;
 		overflow-x: hidden;
-		overflow-y: hidden;
 	}
 
 	.my-photo {
@@ -22,7 +23,7 @@
 	}
 
 	nav {
-		padding: 25px;
+		padding: 15px;
 		float: right;
 	}
 
@@ -36,7 +37,7 @@
 
 /***************************/
 /********* 768px ~ 1023px */
-@media only screen and (min-device-width: 768px) and (max-width: 1023px) {
+@media only screen and (max-width: 1023px) {
 	nav {
 		text-align: left;
 		padding-right: 0;
@@ -67,14 +68,17 @@
 
 /**************************/
 /********* 481px ~ 767px */
-@media only screen and (min-device-width: 481px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
 	body {
 		font-size: 85%;
 	}
 
 	p { font-size: 100% }
 
-	.left-panel { background-color: rgba(0,0,0,0); }
+	.left-panel { 
+		height: 15vh;
+		background-color: rgba(0,0,0,0); 
+	}
 
 	.hero-text-box {
 		width: 500px;
@@ -86,15 +90,26 @@
 	.burger-i {
 		display: inline-block;
 		float: right;
-		padding-right: 30px;
+		padding-right: 50px;
 		font-size: 180%;
 		color: #ff5451;
+	}
+
+	nav { 
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0);
+		padding-top: 25px;
 	}
 
 	nav li {
 		display: block;
 		list-style: none;
 		padding: 20px 22px 20px 60px;
+		margin-right: 50px;
+		z-index: 999;
 	}
 
 	.section-basic-info { padding: 7% 5% }
@@ -169,14 +184,14 @@
 
 /*************************/
 /********* 320 ~ 480px */
-@media only screen and (min-device-width: 320px) and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
 	body {
-		font-size: 70%;
+		font-size: 75%;
 	}
 
 	.hero-text-box {
-		width: 300px;
-		transform: translate(-56%, -50%);
+		width: 320px;
+		transform: translate(-60%, -50%);
 	}
 
 	nav li {

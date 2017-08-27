@@ -163,6 +163,7 @@ a:active,
 	margin-top: 0;
 	background-color: #001b30;
 	position: fixed;
+	overflow-x: hidden;
 }
 
 .site-content {
@@ -199,10 +200,6 @@ nav li {
 .burger-i { display: none; }
 
 .sticky {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
 	background-color: rgba(0, 27, 48, 0.93);
 }
 

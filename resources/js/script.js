@@ -231,7 +231,7 @@ $(document).ready(function() {
   ////////////////////////////////////////////
 
   // CHECK MEDIA QUERY
-  if ((window.matchMedia("(min-width: 200px)").matches) && (window.matchMedia("(max-width: 767px)").matches)) {
+  if ((window.matchMedia("(min-width: 320px)").matches) && (window.matchMedia("(max-width: 767px)").matches)) {
 
     $('.js--section-bi').waypoint(function(direction) {
       if (direction == "down") {

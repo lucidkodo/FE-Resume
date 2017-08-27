@@ -163,6 +163,7 @@ a:active,
 	margin-top: 0;
 	background-color: #001b30;
 	position: fixed;
+	overflow-x: hidden;
 }
 
 .site-content {

@@ -14,7 +14,7 @@ body {
 	font-size: 20px;
 	text-rendering: optimizeLegibility;
 	overflow-x: hidden;
-	background-color: #d7d7d7;
+	background-color: #ededed;
 }
 
 .clearfix {zoom: 1}
@@ -252,7 +252,7 @@ header {
 /*   SECTION-CODE   */
 /* ----------------------------------------------- */
 .section-code {
-	background-color: #ededed;
+	background-color: #dadedf;
 }
 
 .about-my-coding { 
@@ -326,9 +326,50 @@ header {
 
 
 /* ----------------------------------------------- */
-/*   SECTION-TWO-CENTS   */
+/*   SECTION-PROJECTS   */
 /* ----------------------------------------------- */
-.section-two-cents {
+.section-projects { background-color: #dadedf }
+
+.section-projects h3 { text-align: center }
+
+.my-projects {
+	margin: 10px 20px;
+	width: 30%;
+}
+
+.my-projects:hover {
+	opacity: 0.7;
+	transition: opacity 0.1s;
+}
+
+.btn {
+	border: 1px solid #fff;
+	padding: 3px 10px;
+	margin-right: 20px;
+	margin-top: 100px;
+	display: none;
+}
+
+.btn:hover {
+	/*display: inline-block;*/
+	transition: 2s;
+}
+
+.project-1 {
+	/*background-image: url(../img/ss-omnifood.jpg);*/
+	background-size: cover;
+	width: 400px;
+	height: 250px;
+	border-radius: 5px;
+}
+
+
+
+
+/* ----------------------------------------------- */
+/*   SECTION-HIRE   */
+/* ----------------------------------------------- */
+.section-hire {
 	background-color: #ededed;
 }
 
@@ -361,6 +402,8 @@ header {
 /* ----------------------------------------------- */
 /*   FUN FACTS   */
 /* ----------------------------------------------- */
+.section-fun-facts { background-color: #dadedf }
+
 .section-fun-facts h3 {
 	text-align: center;
 	color: #014d6f;
@@ -443,3 +486,12 @@ footer a:visited {
 
 .credits-to p { color: #888 }
 .copyright { padding-top: 25px  }
+
+
+
+/*
+
+darker  #dadedf
+lighter #ededed
+
+*/

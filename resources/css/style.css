@@ -317,6 +317,7 @@ header {
 }
 
 .my-projects:hover > .project-links { 
+	/* testing comment */
 	visibility: visible;
 }
 

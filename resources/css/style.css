@@ -303,6 +303,11 @@ header {
 	width: 30%;
 }
 
+.my-projects:hover .project-links { 
+	display: inline-block; 
+	transition: display 2s;
+}
+
 .project-links {
 	background-color: #000;
 	width: 100%;

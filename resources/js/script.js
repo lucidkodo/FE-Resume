@@ -244,4 +244,14 @@ $(document).ready(function() {
     });  
   };
 
+  ////////////////////////////////////////////
+  ///// PROJECT BUTTON
+  ////////////////////////////////////////////
+  // $('.my-projects').hover(function() {
+  //   $('.project-links').css("display", "inline-block")
+  // }, function() {
+  //   $('.project-links').css("display", "none")
+  // });
+
+
 });

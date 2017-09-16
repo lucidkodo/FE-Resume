@@ -248,9 +248,9 @@ $(document).ready(function() {
   ///// PROJECT BUTTON
   ////////////////////////////////////////////
   $('.my-projects').hover(function() {
-    $('.btn').css("display", "inline-block")
+    $('.project-links').css("display", "inline-block")
   }, function() {
-    $('.btn').css("display", "none")
+    $('.project-links').css("display", "none")
   });
 
 

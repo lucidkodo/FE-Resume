@@ -126,35 +126,6 @@ a:active,
 
 
 /* ----------------------------------------------- */
-/*   ICONS   */
-/* ----------------------------------------------- */
-.icon-small {
-	font-size: 20px;
-	color: #ff5451;
-	vertical-align: middle;
-	margin-top: -15px;
-	letter-spacing: -2px;
-}
-
-.ion-close {
-	text-align: right;
-	display: block;
-	cursor: pointer;
-}
-
-.ion-social-whatsapp,
-.ion-email,
-.ion-social-github,
-.ion-social-facebook {
-	transition: color 0.2s;
-}
-
-.ion-social-whatsapp:hover { color: #4dc247 }
-.ion-email:hover { color: #007bb5 }
-.ion-social-github:hover { color: #24292e }
-.ion-social-facebook:hover { color: #3b5998 }
-
-/* ----------------------------------------------- */
 /*   LEFT SIDEBAR + SITE CONTENT  */
 /* ----------------------------------------------- */
 .left-panel {
@@ -235,6 +206,7 @@ header {
 .hero-text-box p { color: #fff }
 
 
+
 /* ----------------------------------------------- */
 /*   INFO-COL + LANG-COL   */
 /* ----------------------------------------------- */
@@ -264,13 +236,8 @@ header {
 	padding: 2% 9%;
 }
 
-.code-lang-box {
-	/*padding: 0 100px;*/
-}
-
 .code-goals-box { 
 	list-style: none;
-	/*padding: 0 60px;*/
 }
 
 .code-goals-box li { 
@@ -324,7 +291,6 @@ header {
 
 
 
-
 /* ----------------------------------------------- */
 /*   SECTION-PROJECTS   */
 /* ----------------------------------------------- */
@@ -339,24 +305,26 @@ header {
 
 .my-projects:hover {
 	opacity: 0.7;
-	transition: opacity 0.1s;
+	transition: opacity 0.2s;
 }
 
-.btn {
+.project-links {
+	background-color: #000;
+	width: 100%;
+	height: 100%;
 	border: 1px solid #fff;
 	padding: 3px 10px;
 	margin-right: 20px;
-	margin-top: 100px;
 	display: none;
 }
 
-.btn:hover {
-	/*display: inline-block;*/
-	transition: 2s;
+.project-links:hover {
+	opacity: 0.7;
+	transition: opacity 0.2s;
 }
 
 .project-1 {
-	/*background-image: url(../img/ss-omnifood.jpg);*/
+	background-image: url(../img/ss-omnifood.jpg);
 	background-size: cover;
 	width: 400px;
 	height: 250px;
@@ -486,6 +454,37 @@ footer a:visited {
 
 .credits-to p { color: #888 }
 .copyright { padding-top: 25px  }
+
+
+
+/* ----------------------------------------------- */
+/*   ICONS   */
+/* ----------------------------------------------- */
+.icon-small {
+	font-size: 20px;
+	color: #ff5451;
+	vertical-align: middle;
+	margin-top: -15px;
+	letter-spacing: -2px;
+}
+
+.ion-close {
+	text-align: right;
+	display: block;
+	cursor: pointer;
+}
+
+.ion-social-whatsapp,
+.ion-email,
+.ion-social-github,
+.ion-social-facebook {
+	transition: color 0.2s;
+}
+
+.ion-social-whatsapp:hover { color: #4dc247 }
+.ion-email:hover { color: #007bb5 }
+.ion-social-github:hover { color: #24292e }
+.ion-social-facebook:hover { color: #3b5998 }
 
 
 

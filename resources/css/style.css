@@ -294,10 +294,13 @@ header {
 /* ----------------------------------------------- */
 /*   SECTION-PROJECTS   */
 /* ----------------------------------------------- */
-.section-projects { background-color: #dadedf }
+.section-projects { 
+	background-color: #dadedf;
+	padding: 50px 70px;  
+}
 
 .my-projects {
-	margin: 10px 20px;
+	margin: 30px 20px;
 	width: 30%;
 	display: inline-block;
 	background-size: cover;
@@ -325,11 +328,10 @@ header {
 .project-links { transition: opacity 0.2s, visibility 0.2s }
 
 .project-1 { background-image: url(../img/ss-omnifood.jpg) }
-.project-2 { background-image: url(../img/ss-pig-game.jpg) }
-.project-3 { background-image: url(../img/ss-budgety.jpg) }
+.project-2 { background-image: url(../img/ss-budgety.jpg) }
+.project-3 { background-image: url(../img/ss-pig-game.jpg) }
 .future-project { background-image: url(../img/more-projects.jpg) }
 .project-2, .project-3 { background-position: center }
-
 
 .project-name {
 	color: #014d6f; 

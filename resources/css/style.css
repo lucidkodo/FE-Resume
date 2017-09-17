@@ -303,6 +303,14 @@ header {
 	width: 30%;
 }
 
+.project-1 {
+	background-image: url(../img/ss-omnifood.jpg);
+	background-size: cover;
+	width: 400px;
+	height: 250px;
+	border-radius: 5px;
+}
+
 .project-links {
 	background-color: #000;
 	width: 400px;
@@ -311,24 +319,15 @@ header {
 	padding-top: 130px;
 	padding-left: 50px;
 	opacity: 0;
-	/* without this it will flash */
-	visibility: hidden;
-	transition: visibility 0.2s;
-}
-
-.my-projects:hover > .project-links { 
-	/* testing comment */
-	visibility: visible;
-}
-
-.my-projects > .project-links { 
-	transition:  visibility;
 }
 
 .project-links:hover {
 	opacity: 0.85;
+	visibility: 1;
 	transition: opacity 0.2s linear, visibility 0.2s;
 }
+
+.project-links { transition: opacity 0.2s, visibility 0.2s }
 
 .project-name {
 	color: #014d6f; 
@@ -341,15 +340,6 @@ header {
 	margin-right: 15px;
 	border-radius: 10px;
 }
-
-.project-1 {
-	background-image: url(../img/ss-omnifood.jpg);
-	background-size: cover;
-	width: 400px;
-	height: 250px;
-	border-radius: 5px;
-}
-
 
 
 

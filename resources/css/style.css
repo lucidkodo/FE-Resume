@@ -296,15 +296,10 @@ header {
 /* ----------------------------------------------- */
 .section-projects { background-color: #dadedf }
 
-.section-projects h3 { text-align: center }
-
 .my-projects {
 	margin: 10px 20px;
 	width: 30%;
-}
-
-.project-1 {
-	background-image: url(../img/ss-omnifood.jpg);
+	display: inline-block;
 	background-size: cover;
 	width: 400px;
 	height: 250px;
@@ -317,7 +312,7 @@ header {
 	height: 250px;
 	border-radius: 5px;
 	padding-top: 130px;
-	padding-left: 50px;
+	padding-left: 55px;
 	opacity: 0;
 }
 
@@ -329,9 +324,24 @@ header {
 
 .project-links { transition: opacity 0.2s, visibility 0.2s }
 
+.project-1 { background-image: url(../img/ss-omnifood.jpg) }
+.project-2 { background-image: url(../img/ss-pig-game.jpg) }
+.project-3 { background-image: url(../img/ss-budgety.jpg) }
+.future-project { background-image: url(../img/more-projects.jpg) }
+.project-2, .project-3 { background-position: center }
+
+
 .project-name {
 	color: #014d6f; 
 	font-size: 200;
+	text-align: center
+}
+
+.future-project p {
+	font-family: 'Lato'; 
+	color: #fff;
+	font-size: 150%;
+	padding-top: -100px;
 }
 
 .btn {
@@ -340,6 +350,12 @@ header {
 	margin-right: 15px;
 	border-radius: 10px;
 }
+
+.btn:hover {
+	background-color: #fff
+}
+
+
 
 
 

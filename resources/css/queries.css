@@ -66,6 +66,26 @@
 } 
 
 
+/***************************/
+/********* 841px ~ 882px */
+@media only screen and (max-width: 882px) {
+	.project-links { padding: 35% 1% 10% 1% }
+
+	.btn { margin-left: 1% }
+}
+
+
+/***************************/
+/********* 768px ~ 840px */
+@media only screen and (max-width: 840px) {
+	nav li { padding-right: 20px }
+
+	.project-links { padding: 35% 8% 10% 0 }
+
+	.btn { margin-left: 0 }
+}
+
+
 /**************************/
 /********* 481px ~ 767px */
 @media only screen and (max-width: 767px) {
@@ -166,6 +186,13 @@
 
 	.exp-info p { font-size: 100%; }
 
+	.btn {
+		display: block;
+		margin: 5% 25%;
+		padding: 2% 5%;
+		width: 30%;
+	}
+
 	.bonus,
 	.final-notes { 
 		width: 85%;
@@ -179,6 +206,33 @@
 	}
 
 	.social-connect { margin-left: 33%; }
+}
+
+
+/**************************/
+/********* 481px ~ 700px */
+@media only screen and (max-width: 700px) {
+	.section-projects {
+		padding: 5% 10%; 
+	}
+
+	.my-projects { 
+		display: block; 
+		width: 70%;
+		margin-bottom: 10%;
+		margin-left: 15%;
+	}
+
+	.btn { 
+		display: inline;
+		margin-top: 0;
+		margin-right: 5%;
+		margin-left: 10%; 
+	}
+
+	.project-links { padding: 35% 1% 10% 1% }
+
+	.reminder { margin:0 }
 }
 
 
@@ -238,6 +292,27 @@
 	.lang-names p { 
 		font-size: 120%;
 		line-height: 145%; 
+	}
+
+	.my-projects { 
+		margin-left: 5%;
+		width: 90%;
+	}
+
+	.project-links {
+		padding: 50% 1% 0 1%;
+	}
+
+	.btn {
+		padding: 5% 5%;
+		display: block;
+		margin: 0 10% 5% 5%;
+		width: 50%;
+	}
+
+	.btn:last-of-type { 
+		margin-left: 10%; 
+		margin-top: 10%;
 	}
 
 	footer { 

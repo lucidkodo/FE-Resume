@@ -7,7 +7,7 @@
 	box-sizing: border-box;
 }
 
-html, 
+html,
 body {
 	font-family: 'Fira Sans','Lato', 'Roboto', 'Arial', sans-serif;
 	font-weight: 300;
@@ -32,7 +32,7 @@ body {
 /*   REUSABLE COMPONENTS   */
 /* ----------------------------------------------- */
 .row {
-	margin: 0 auto; 
+	margin: 0 auto;
 }
 
 section {
@@ -52,7 +52,7 @@ section {
 /* ----------------------------------------------- */
 /*   FONTS  */
 /* ----------------------------------------------- */
-h1, 
+h1,
 h2,
 h3 {
 	font-family: 'Lato';
@@ -108,7 +108,7 @@ a {
  	transition: color 0.2s;
 }
 
-a:link, 
+a:link,
 a:visited {
  	color: #379bcc;
  	text-decoration: none;
@@ -225,9 +225,9 @@ header {
 	background-color: #dadedf;
 }
 
-.about-my-coding { 
+.about-my-coding {
 	padding: 10px 150px;
-	line-height: 150%; 
+	line-height: 150%;
 	font-weight: 400;
 }
 
@@ -235,11 +235,11 @@ header {
 	padding: 2% 9%;
 }
 
-.code-goals-box { 
+.code-goals-box {
 	list-style: none;
 }
 
-.code-goals-box li { 
+.code-goals-box li {
 	padding: 10px;
 	box-shadow: 1px 2px 2px #000;
 	margin-bottom: 10px;
@@ -281,7 +281,7 @@ header {
 .exp-info {
 	width: 50%;
 	margin-left: 25%;
-	background-color: #fff; 
+	background-color: #fff;
 	padding: 1% 3%;
 	box-shadow: 1px 2px 2px #000;
 }
@@ -295,9 +295,9 @@ header {
 /* ----------------------------------------------- */
 /*   SECTION-PROJECTS   */
 /* ----------------------------------------------- */
-.section-projects { 
+.section-projects {
 	background-color: #dadedf;
-	padding: 5%;  
+	padding: 5%;
 }
 
 .my-projects {
@@ -352,23 +352,23 @@ header {
 .project-2, .project-3, .future-project { background-position: center }
 
 .project-name {
-	color: #014d6f; 
+	color: #014d6f;
 	font-size: 200;
 	text-align: center
 }
 
 .future-project p {
-	font-family: 'Lato'; 
+	font-family: 'Lato';
 	color: #fff;
 	font-size: 170%;
 	/*margin-bottom: 20%;*/
 	margin-left: 20%;
 }
 
-.reminder { 
+.reminder {
 	margin-top: 40px;
 	text-align: center;
-	font-size: 120%; 
+	font-size: 120%;
 	line-height: 150%;
 	color: #001B30 !important;
 }
@@ -451,8 +451,8 @@ footer a:visited {
 	margin-bottom: 1%;
 }
 
-.connect-with-me h3 { 
-	text-align: center; 
+.connect-with-me h3 {
+	text-align: center;
 	color: #888;
 	padding-bottom: 5px;
 }
@@ -518,14 +518,14 @@ footer a:visited {
 .ion-social-whatsapp,
 .ion-email,
 .ion-social-github,
-.ion-social-facebook {
+.ion-social-twitter {
 	transition: color 0.2s;
 }
 
 .ion-social-whatsapp:hover { color: #4dc247 }
-.ion-email:hover { color: #007bb5 }
+.ion-email:hover { color: #de5448 }
 .ion-social-github:hover { color: #24292e }
-.ion-social-facebook:hover { color: #3b5998 }
+.ion-social-twitter:hover { color: #29a1f2 }
 
 
 

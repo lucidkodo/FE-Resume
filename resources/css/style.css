@@ -94,7 +94,7 @@ p {
 }
 
 .bold-text {
-	text-weight: bold-text;
+	font-weight: bold-text;
 }
 
 
@@ -216,7 +216,10 @@ header {
 	line-height: 135%;
 }
 
-
+.clear-style {
+  font-family: 'Fira Sans';
+  text-decoration: none;
+}
 
 /* ----------------------------------------------- */
 /*   SECTION-CODE   */
